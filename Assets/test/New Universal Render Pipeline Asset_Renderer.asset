@@ -67,8 +67,8 @@ MonoBehaviour:
   m_RendererFeatures:
   - {fileID: -5359720663476642522}
   - {fileID: -5665553872908513924}
-  - {fileID: 3946741601407331021}
-  m_RendererFeatureMap: 265d271e74729eb57c0d731dc5e85fb1cdea236493a4c536
+  - {fileID: 8257559021495102832}
+  m_RendererFeatureMap: 265d271e74729eb57c0d731dc5e85fb170ad09fc2dbe9872
   m_UseNativeRenderPass: 0
   postProcessData: {fileID: 11400000, guid: 41439944d30ece34e96484bdb6645b55, type: 2}
   xrSystemData: {fileID: 11400000, guid: 60e1133243b97e347b653163a8c01b64, type: 2}
@@ -105,7 +105,7 @@ MonoBehaviour:
   m_ClusteredRendering: 0
   m_TileSize: 32
   m_IntermediateTextureMode: 1
---- !u!114 &3946741601407331021
+--- !u!114 &8257559021495102832
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -114,7 +114,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 36a4c0517166c9e44a620606fcd9ed89, type: 3}
-  m_Name: VHSRenderer
+  m_Script: {fileID: 11500000, guid: ac110f20e44cdf14da81c73649ab231d, type: 3}
+  m_Name: VHSEffectPostProcessRenderer
   m_EditorClassIdentifier: 
   m_Active: 1

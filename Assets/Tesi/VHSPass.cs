@@ -88,7 +88,6 @@ public class VHSPass : ScriptableRenderPass
             var material = materials.customEffect;
             // P.s. ottimizza memorizzando l'ID della proprietà altrove
             material.SetFloat(Shader.PropertyToID("_Intensity"), customEffect.intensity.value);
-            material.SetColor(Shader.PropertyToID("_OverlayColor"), customEffect.overlayColor.value);
 
             BlitTo(material);
         }
